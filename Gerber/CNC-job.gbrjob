@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.0-d3dd2cf0fa~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-01-03T11:45:49-03:00"
+    "CreationDate": "2022-01-03T23:27:22-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.508,
@@ -34,7 +34,7 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "CNC-cobre frontal.gbr",
+      "Path": "CNC-Cobre frontal.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
@@ -64,12 +64,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CNC-M\\u00E1scara frontal.gbr",
+      "Path": "CNC-Mascara frontal.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "CNC-M\\u00E1scara traseira.gbr",
+      "Path": "CNC-Mascara traseira.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
@@ -96,14 +96,14 @@
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "cobre frontal"
+      "Name": "Cobre frontal"
     },
     {
       "Type": "Dielectric",
       "Thickness": 1.51,
       "Material": "FR4",
-      "Name": "cobre frontal/Cobre traseira",
-      "Notes": "Type: dielectric layer 1 (from cobre frontal to Cobre traseira)"
+      "Name": "Cobre frontal/Cobre traseira",
+      "Notes": "Type: dielectric layer 1 (from Cobre frontal to Cobre traseira)"
     },
     {
       "Type": "Copper",

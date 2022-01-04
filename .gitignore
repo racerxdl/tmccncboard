@@ -25,3 +25,5 @@ fp-info-cache
 *.xml
 *.csv
 CNC-backups
+\#auto_saved_files#
+Gerber/*.zip
